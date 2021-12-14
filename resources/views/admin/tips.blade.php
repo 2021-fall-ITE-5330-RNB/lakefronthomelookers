@@ -36,14 +36,14 @@
 
             <li><a href="{{ url('admin/blogs') }}">Blog</a></li>
 
-            <li><a href="{{ url('t') }}">Tips</a></li>
+            <li><a href="{{ url('tips') }}">Tips</a></li>
 
             <li>
                 <a href="#" class="dropdown-toggle">About</a>
 
                 <ul>
                     <li><a href="{{ url('admin/aboutUs') }}">About Us</a></li>
-                    <li><a href="{{ url('admin/team') }}">Team</a></li>
+                    <li><a href="{{ url('admin/roles') }}">Team</a></li>
                 </ul>
             </li>
             <li><a href="{{ url('admin/contactUs') }}">Contact Us</a></li>

@@ -52,7 +52,7 @@
 
                 <ul>
                     <li><a href="{{ url('admin/aboutUs') }}">About Us</a></li>
-                    <li><a href="{{ url('admin/team') }}">Team</a></li>
+                    <li><a href="{{ url('admin/roles') }}">Team</a></li>
                 </ul>
             </li>
             <li><a href="{{ url('admin/contactUs') }}">Contact Us</a></li>
@@ -66,10 +66,6 @@
     <div id="main">
         <div class="inner">
             <h1>Properties</h1>
-            <form action="" method="GET">
-                <input type="text" name="category" placeholder="enter city"/>
-                <button type="submit">Submit</button>
-            </form>
             <div class="image main">
                 <img src="{{ url('/images/banner-image-1-1920x500.jpg') }}" class="img-fluid" alt="" />
             </div>
