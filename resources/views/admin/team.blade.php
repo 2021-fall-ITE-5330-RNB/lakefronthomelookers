@@ -46,17 +46,20 @@
 
             <li><a href="{{ url('admin/blogs') }}">Blog</a></li>
 
-        <li>
-            <a href="#" class="dropdown-toggle">About</a>
+            <li><a href="tips">Tips</a></li>
 
-            <ul>
-                <li><a href="{{ url('admin/aboutUs') }}">About Us</a></li>
-                <li><a href="{{ url('admin/roles') }}">Team</a></li>
-            </ul>
-        </li>
-        <li><a href="{{ url('admin/contactUs') }}">Contact Us</a></li>
+            <li>
+                <a href="#" class="dropdown-toggle">About</a>
 
-        <li><a href="{{ url('admin/faqs') }}">Faqs</a></li>
+                <ul>
+                    <li><a href="{{ url('admin/aboutUs') }}">About Us</a></li>
+                    <li><a href="{{ url('admin/team') }}">Team</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ url('admin/contactUs') }}">Contact Us</a></li>
+
+            <li><a href="{{ url('admin/faqs') }}">Faqs</a></li>
+            <li><a href="{{ url('appointment/create') }}">Appointment</a></li>
         </ul>
     </nav>
 

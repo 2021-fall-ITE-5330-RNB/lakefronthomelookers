@@ -30,20 +30,27 @@
         <nav id="menu">
             <h2>Menu</h2>
             <ul>
-                <li><a href="index">Home</a></li>
-                <li><a href="properties">Properties</a></li>
-                <li><a href="calculate" class="active">Calculate</a></li>
-                <li><a href="blog">Blog</a></li>
-                <li>
-                    <a href="#" class="dropdown-toggle">About</a>
-                    <ul>
-                        <li><a href="aboutUs">About Us</a></li>
-                        <li><a href="team">Team</a></li>
-                    </ul>
-                </li>
-                <li><a href="contactUs">Contact Us</a></li>
-                <li><a href="faqs">Faqs</a></li>
-            </ul>
+            <li><a href="{{ url('admin/index') }}" class="active">Home</a></li>
+
+            <li><a href="{{ url('admin/properties') }}">Properties</a></li>
+
+            <li><a href="{{ url('admin/blogs') }}">Blog</a></li>
+
+            <li><a href="{{ url('tips') }}">Tips</a></li>
+
+            <li>
+                <a href="#" class="dropdown-toggle">About</a>
+
+                <ul>
+                    <li><a href="{{ url('admin/aboutUs') }}">About Us</a></li>
+                    <li><a href="{{ url('admin/team') }}">Team</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ url('admin/contactUs') }}">Contact Us</a></li>
+
+            <li><a href="{{ url('admin/faqs') }}">Faqs</a></li>
+            <li><a href="{{ url('appointment/create') }}">Appointment</a></li>
+        </ul>
         </nav>
         <div id="main">
             <div class="inner">

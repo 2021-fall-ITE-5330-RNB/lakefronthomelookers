@@ -41,9 +41,9 @@
 
             <li><a href="{{ url('admin/properties') }}">Properties</a></li>
 
-            <li><a href="{{ url('admin/blog') }}">Blog</a></li>
+            <li><a href="{{ url('admin/blogs') }}">Blog</a></li>
 
-            <li><a href="{{ url('admin/blog') }}">Blog</a></li>
+            <li><a href="tips">Tips</a></li>
 
             <li>
                 <a href="#" class="dropdown-toggle">About</a>
