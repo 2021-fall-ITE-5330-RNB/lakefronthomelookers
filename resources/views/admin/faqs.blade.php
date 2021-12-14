@@ -47,7 +47,7 @@
 
             <li><a href="{{ url('admin/blogs') }}">Blog</a></li>
 
-            <li><a href="tips">Tips</a></li>
+            <li><a href="{{ url('tips') }}">Tips</a></li>
 
             <li>
                 <a href="#" class="dropdown-toggle">About</a>
